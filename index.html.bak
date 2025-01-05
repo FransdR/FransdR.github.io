@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Frans de Ruiter</title>
+  <meta name="Personal website of Frans de Ruiter" content="">
+  <meta name="Frans de Ruiter" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <style>
+        body {
+          font-family: 'Raleway', sans-serif;
+          font-size: 48px;
+        }
+      </style>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/fixed-navigation-bar.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
+  <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/frans-de-ruiter-7724634a" data-format="inline"></script>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/ico" href="images/BigF.ico">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section=header>
+  <div class="container">
+    <class = "docs-section"  id="about">
+      <p>
+
+      </p>
+      <div class="row">
+      <div class="three columns">
+        <h4>Frans de Ruiter</h4>
+        <img class="profile-img" src="images/Fujicloseup.jpg">
+        <h6>Local maxima at Mt. Fuji (2016)</h6>
+        <p>
+          <strong>Contact:</strong> <br /> Email 1: frans dot deruiter at wur dot nl <br /> Email 2: deruiter at cqm dot nl <br />
+          <script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
+          <script type="IN/MemberProfile" data-id="https://nl.linkedin.com/in/frans-de-ruiter-7724634a" data-format="click" data-related="false"></script> <a href="https://nl.linkedin.com/in/frans-de-ruiter-7724634a">LinkedIn</a>
+        </p>
+      </div>
+      <div class="nine columns">
+        <p>
+          I am an analytics consultant and research scientist currently working at <a href="https://cqm.nl/nl">CQM</a> and <a href="https://www.wur.nl/en/Persons/Frans-dr.-FJCT-Frans-de-Ruiter.htm">Wageningen University and Research</a>. With the help of analytics, I aim to make processes more efficient, sustainable and fair. For this, I also design and implement optimization, machine learning and artificial intelligence algorithms.
+        </p>
+        <p>
+           I have obtained my PhD in Operations Research at Tilburg University in the Netherlands advised by <a href="https://www.tilburguniversity.edu/webwijs/show/d.denhertog.htm">Dick den Hertog</a> and <a href="https://www.mit.edu/~dbertsim/">Dimitris Bertsimas</a> from MIT. Prior to starting my PhD research I obtained a degree in Applicable Mathematics (MSc.) from the London School of Economics and a degree in Management Science and Operations Research (MSc.) from Tilburg University. My main research interests are adaptive and robust optimization under uncertainty, combining optimization with machine learning and optimization problems that arise in real-world applications.
+        </p>
+        <p>
+          See also my full <a href="CV/CV_FransdeRuiter_website.pdf">Curricilum Vitae</a>.
+        </p>
+        <p>
+          Course material for the 2020 Optimization course of the JADS Data Expert Program can be found <a href="JADS/index.html">here</a>.
+        </p>
+      </div>
+    </div>
+</div>
+</section>
+
+<div class="docs-section" id="webinar">
+<h2 class="docs-header">Webinar Analytics for a Better World</h2>
+      In August 2020, during the COVID-19 crisis, I presented our work at CQM duting the ``Analytics for a Better World Webinar'' hosted by the MIT Sloan Shool of Management, Cambridge US.  Using state-of-the-art algorithms, we improved customer satisfaction and saved 100.000km a day. The live recording can be watched below.
+  <div class="youtube">
+      <iframe src="https://www.youtube.com/embed/8MjyKciwu28" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+  <!--   Navigation bar
+  -->
+
+  <nav class="fixed-nav-bar">
+    <div id="menu" class="menu">
+      <a class="sitename" href="https://www.fransderuiter.com">Frans de Ruiter</a>
+      <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+      <ul class="menu-items">
+        <li><a href="">About me</a></li>
+        <li><a href="#papers">Papers</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="CV/CV_FransdeRuiter_website.pdf">CV</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <!-- Papers
+   -->
+  <div class="docs-section" id="papers">
+    <h2 class="docs-header">Publications</h2>
+        <div class="row">
+          <div class="eight columns">
+          <ul>
+			<li>Dual approach for two-stage robust nonlinear optimization, (with Jianzhe Zhen and Dick den Hertog), <em><strong>to appear in Operations Research</strong></em>, 2022. <a href="http://www.optimization-online.org/DB_FILE/2018/03/6522.pdf">[Preprint]</a>,</li>
+            <li>Robust optimization for models with uncertain SOC and SDP constraints, (with Jianzhe Zhen, Ernst Roos and Dick den Hertog), <em><strong>to appear in Informs Journal on Computing</strong></em>, 2020. <a href="http://www.optimization-online.org/DB_FILE/2017/12/6371.pdf">[Preprint]</a>,</li>
+            <li>Approximation of hard uncertain convex inequalities, (with Ernst Roos, Jianzhe Zhen, Aharon Ben-Tal and Dick den Hertog), <em><strong>submitted</strong></em>, 2019. <a href="http://www.optimization-online.org/DB_FILE/2018/06/6679.pdf">[Preprint]</a>,</li>
+            <li>Duality in two-stage adaptive linear optimization: faster computation and stronger bounds, (with Dimitris Bertsimas), <em><strong>INFORMS Journal on Computing</strong></em>, 28 (3), p500-511, 2016. <a href="papers/preprintDualAO_BertsimasdeRuiter2016.pdf">[Preprint]</a> <a href="https://pubsonline.informs.org/doi/full/10.1287/ijoc.2016.0689">[DOI]</a> <a href="bibtex/BertsimasdeRuiter2016.bib">[BibTeX]</a></li>
+            <li>The impact of the existence of multiple adjustable robust solutions, (with Ruud Brekelmans and Dick den Hertog), <em><strong>Mathematical Programming</strong></em>, 160 (1), p531-545, 2016. <a href="https://link.springer.com/content/pdf/10.1007%2Fs10107-016-0978-6.pdf">[Article]</a> <a href="https://dx.doi.org/10.1007/s10107-016-0978-6">[DOI]</a> <a href="bibtex/deRuiteretal2016.bib">[BibTeX]</a></li>
+            <li>Robust optimization of uncertain multistage inventory systems with inexact data in decision rules, (with Aharon Ben-Tal, Ruud Brekelmans and Dick den Hertog), Computational Management Science, <em><strong>Computational Management Science</strong></em>, 14 (1), p45-77, 2017. <a href="https://link.springer.com/content/pdf/10.1007%2Fs10287-016-0253-6.pdf">[Article]</a> <a href="https://link.springer.com/article/10.1007/s10287-016-0253-6">[DOI]</a> <a href="bibtex/deRuiteretal2017.bib">[BibTeX]</a>
+            <a href="slides/ISMP2015_FJCTdeRuiter_handout.pdf">[Slides]</a></li>
+            <li>Applications of integer programming methods to cages, (with Norman Biggs), <em><strong>The Electronic Journal of Combinatorics</strong></em>, 22 (4), p4.35, 2015. <a href="papers/IPcagesFransdeRuiterNormanBiggs.pdf">[Article]</a> <a href="bibtex/deRuiterBiggs2015.bib">[BibTeX]</a></li> </li>
+            <li>Primal and dual approaches to adjustable robust optimization, <em><strong>PhD thesis Tilburg University</strong></em>, 2017. <a href="https://pure.uvt.nl/ws/portalfiles/portal/20220303/FINAL_PRINT_version_PhD_thesis_Frans_de_Ruiter.pdf">[Full thesis]</a> <a href="bibtex/deRuiteretal2017.bib">[BibTeX]</a><a href="Thesis/index.html">[Code Chapter 1]</a></li>
+          </ul>
+        </div>
+        <div class="four columns">
+          <a href="https://pubsonline.informs.org/doi/full/10.1287/ijoc.2016.0689"><img class="profile-img" src="images/picDualAO.png"></a>
+          <p><small><center>Figure from paper ``<em>Duality in two-stage adaptive linear optimization: faster computation and stronger bounds</em>''.</center></small></p>
+      </div>
+    </div>
+  </div>
+
+  <!--   Talks
+  -->
+  <div class="docs-section" id="talks">
+    <h2 class="docs-header">Talks</h2>
+      <div class="row">
+        <div class="four columns">
+          <img class="profile-img" src="images/talkpic.jpg">
+        </div>
+        <div class="eight columns">
+          <ul>
+            <li>Research seminar, Wageningen University and Research, Wageningen (The Netherlands)</a>, Online, May 2021.</li>
+            <li>Society of Decision Professionals, San Francisco Chapter Meeting</a>, Online, September 2020.</li>
+            <li><a href="https://analyticsbw.org/webinar-4/">Analytics for a Better World Webinar</a>, Online, August 2020.</li>
+            <li>Optimization Seminar, Delft (The Netherlands), February 2020.</li>
+            <li>6th International Conference on Continuous Optimization (ICCOPT), Berlin (Germany), August 2019.</li>
+            <li>23th International Symposium on Mathematical Programming (ISMP), Bordeaux (France), July 2018.</li>
+            <li>Workshop Robust Optimization, Avignon (France), June 2018.</li>
+            <li>INFORMS Annual Meeting, Houston TX (USA), October 2017.</li>
+            <li>Conference on
+Computational Management Science (CMS), Bergamo (Italy), June 2017.</li>
+            <li>SIAM Conference on Optimization, Vancouver (Canada), May 2017.</li>
+            <li>53th Dutch Mathematical Congeres: KWG prize finalist presentation, Utrecht (The Netherlands), April 2017.</li>
+            <li>AP seminar IBM Watson, Yorktown Heights NY (USA), November 2016.</li>
+            <li>INFORMS Annual Meeting, Nashville TN (USA), November 2016.</li>
+            <li>5th International Conference on Continuous Optimization (ICCOPT), Tokyo (Japan), August 2016.</li>
+            <li> 2016 Optimization Days Conference, HEC Montreal, Montreal (Canada), May 2016.</li>
+            <li> Invited Research Seminar, Erasmus University Rotterdam, Rotterdam (The Netherlands), February 2016.</li>
+            <li>41th Conference on the Mathematics of Operations Research, Lunteren (The Netherlands), January 2016.</li>
+            <li>22nd International Symposium on Mathematical Programming (ISMP), Pittsburgh PA (USA), July 2015.</li>
+            <li>40th Conference on the Mathematics of Operations Research, Lunteren (The Netherlands), January 2015.</li>
+            <li>11th International Conference on Applied Mathematical Optimization and Modelling (APMOD), Warwick (UK), April 2014.</li>
+            <li>Annual meeting of the Netherlands Society for Statistics and Operations Research (VVS+OR), Utrecht (The Netherlands), March 2014.</li>
+            <li>Management Science seminar series, London School of Economics, London (UK), March 2014.</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+  <!--   Teaching
+   -->
+  <div class="docs-section" id="teaching">
+    <h2 class="docs-header">Teaching</h2>
+          <li>Spring 2020,2022: <strong>Robust Optimization</strong></br>
+            (PhD level course, LNMB, partly online)</li>
+            <ul>
+              I am responsible for part of the course on Robust Optimization for PhD students from several universities in the Netherlands. See also the <a href="https://www.lnmb.nl/pages/courses/phdcourses/RO.html">course page</a>.
+            </ul>
+          <li>2017-2020: <strong>Optimization Case Studies</strong></br>
+            (JADS expert program, JADS acadamy for Data Science in den Bosch)</li>
+            <ul>
+              Introduction to optimization to experts from industry.
+              I was responsible for the development and presentation of the case studies. See also the <a href="JADS/index.html">course material</a> (including slides, case files and answers) for the 2018 course.
+            </ul>
+            <li>Fall 2015, 2016: <strong>Linear optimization</strong></br> (Undergraduate course, Tilburg University)</li>
+                <ul>
+                  This course introduces undergraduate econometrics and operations research students to linear optimization. It gives an introduction in the simplex algorithm and introduces the students to modelling linear and integer optimization problems, as well as solving these models using the AIMMS package. I have been involved in this class as a teaching assistant for the tutorials.
+                </ul>
+            <li>Spring 2016: <strong>Analytics for Business and Governance</strong></br> (Graduate course, Tilburg University)</li>
+              <ul>
+                This course presents the foundations of Business Analytics. It provides the students with the tools and techniques for descriptive, predictive and prescriptive analysis as well as techniques to model  decision problems in logistics, finance and marketing. I am involved in this class as an instructor.
+              </ul>
+            <li>Fall 2014, Fall 2015: <strong>Statistics for premaster</strong></br> (Graduate course, Tilburg University)</li>
+              <ul>
+                Students are here introduced to statistics, including probability theory and hypothesis testing. It provides the students with understanding of basic techniques and how software packages like Excel and SPSS can help them in providing descriptive and predictive analytic reports. I have been involved in this class as a teaching assistant responsible for the tutorials.
+              </ul>
+          </ul>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

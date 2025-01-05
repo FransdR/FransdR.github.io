@@ -1,0 +1,94 @@
+% File for idea dualization of two stage problems
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{algorithm,algorithmic}
+  \renewcommand{\algorithmicrequire}{\textbf{Input:}}
+  \renewcommand{\algorithmicensure}{\textbf{Output:}}
+\usepackage[backend=bibtex,
+      natbib=true,
+			useprefix=true,
+			url=false,
+			isbn=false,
+			doi=false,
+			maxbibnames=99,
+			maxnames=99,
+			citetracker=true,
+			firstinits=true,
+			style=authoryear]{biblatex}    %needed to use authors name in references
+
+	\AtEveryCitekey{\ifciteseen{}{\defcounter{maxnames}{3}}}
+
+	\usepackage[american]{babel}				%Recommended for biblatex
+	\usepackage{csquotes}				%Recommended for biblatex
+	%The bibliography:
+	    \addbibresource{SuperMasterbib.bib}
+      \addbibresource{OptimalLearningBibFile.bib}
+	\renewbibmacro{in:}{} %Surpress In: in the reference sheet
+	\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+%  \setunit*{\adddot}% DELETED
+  \setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat
+  [article,inbook,incollection,inproceedings,patent,thesis,unpublished]
+  {title}{{#1\isdot}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{property}{Property}
+\newtheorem{example}{Example}
+
+% New commands
+\newcommand{\set}[1]{\mathcal{#1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vect}[1]{\mathbf{#1}}
+\newcommand{\matr}[1]{\mathbf{#1}}
+\newcommand{\relint}[1]{\text{ri}(#1)}
+
+\usepackage{titling}
+\setlength{\droptitle}{-10em}   % This is your set screw
+
+\begin{document}
+\title{Model formulation for the facility location model}
+\date{}
+\author{Frans de Ruiter}
+\maketitle
+\thispagestyle{empty}
+
+\subsection*{Parameters}
+Let $i=1,\dots,N$ be the index for the cities.\\ \\
+\begin{tabular}{rl}
+  $d_{i}$ : & demand at city $i$ in number of pallets\\
+  $F_i$ : & fixed costs for opening a distribution center (DC) at location $i$ in euros\\
+  $S_i$ : & capacity at DC $i$ (if opened) in number of pallets\\
+  $c_{ij}$ : & costs for transporting one pallet from city $i$ to city $j$ in euros\\
+\end{tabular}
+
+\subsection*{Variables}
+\begin{tabular}{rl}
+  $x_i$ : & $=\begin{cases} 1 \text{ if a DC is opened in city } i\\ 0 \text{ otherwise} \end{cases}$\\
+  $y_{ij}$ : & number of pallets transported from city $i$ to city $j$
+\end{tabular}
+
+\subsection*{Model}
+\begin{align*}
+\begin{aligned}
+  & \min_{x,y} & & \sum_{i=1}^N F_ix_i + \sum_{i=1}^N\sum_{j=1}^Nc_{ij}y_{ij}\\
+  & \text{s.t.}
+        & & \sum_{i=1}^N y_{ij} = d_{j} \qquad j=1,\dots,N\\
+  & & & \sum_{j=1}^N y_{ij} \leq S_ix_i \qquad i=1,\dots,N\\
+  & & & y_{ij} \geq 0 \qquad i=1,\dots,N,\ j=1,\dots,N\\
+  & & & x_i \in \{0,1\} \qquad i=1,\dots,N.
+\end{aligned}
+\end{align*}\\
+The first constraint ``$\sum_{i=1}^N y_{ij} = d_{j}$'' ensures that the demand in the $i$-th city is met. The constraint ``$\sum_{j=1}^N y_{ij} \leq S_ix_i$'' ensures that the total number of pallets leaving city $i$ is less than $0$ if there is no DC opened in city $i$ and less than $S_i$ if a DC is opened. Nonnegativity of the transport amount is guaranteed by the constraints ``$y_{ij} \geq 0$'' and the binary nature (open or closed) of a DC by ``$x_i \in \{0,1\}$''.
+% \begin{abstract}
+%     A fast way of adaptability via sampling via the dual formulation. This is explained for the linear case, it works the same for nonlinear problems.
+% \end{abstract}
+
+
+\end{document}
